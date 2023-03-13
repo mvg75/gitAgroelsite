@@ -1,0 +1,260 @@
+body {
+	background: url(img/bf1.jpg) no-repeat center center fixed;
+ /*center center no-repeat;*/
+	margin: 0 auto;
+	background-size: cover;
+
+}
+.page { /* вся страничка*/
+	margin: 0 auto;
+	/* background: gray; */
+	width: 1000px;
+	min-height: 100% /*500px;*/
+	/* border: 2px solid blue; */
+}
+@font-face { /* фонт заголовков */
+   font-family: HeadFont;
+   src: url(fnt/Spectral-ExtraBold.ttf);
+}
+@font-face {  /* фонт основного текста */
+   font-family: BasicTextFont;
+   src: url(fnt/Spectral-Regular.ttf);
+}
+.header { /* заголовок */
+	background: white;
+	width: 1000px;
+	height: 200px;
+	margin-bottom: 10px;
+	border: 1px solid black;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	color: black;
+	font-family: HeadFont;
+	font-size: 48px;
+}
+.maintext{ /* окно основного текста */
+	width: 1000px;
+	background: #f0f0f0;
+/*	height: 4360px;* /
+/*	border: 1px solid black; */
+/*	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);*/
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+.upkey{ /* окно кнопки вверх */
+	width: 1000px;
+/*	border: 1px solid black; */
+/*	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);*/
+	margin-bottom: 10px;
+	height: 200px;
+	background: red;
+}
+.companyname1{ /* название компании большое */
+	color: blue;
+	margin-top: 30px;
+	margin-left: 300px;
+	font-size: 78px;
+
+}
+.companyname2{  /* название компании малое */
+	color: black;
+	margin-top: -50px;
+	margin-left: 620px;
+	font-size: 12px;
+
+}
+.headlogo {
+margin: 10px 10px 10px	10px;
+float: left;
+}
+.gotop{ /* картинка "Наверх" */
+ color: green;
+ font-family: HeadFont;
+ font-size: 32px;
+ text-decoration: none;
+ }
+ .loading{
+  color: blue;
+	margin-left: 20px;
+	font-family: BasicTextFont;
+  font-size: 24px;
+  text-decoration: underline;
+  }
+
+ /*.gotop:hover{ /* картинка "Наверх"
+ color: #006000;
+ font-family: HeadFont;
+ font-size: 32px;
+ text-decoration: underline;
+  }*/
+
+.h1text1 {  /* Тект заголовока */
+	color: black;
+	font-size: 32px;
+	margin-left: 350px;
+	font-family: HeadFont;
+
+}
+
+}
+.h1text2 {  /* Тект заголовока 2*/
+	color: black;
+	font-size: 24px;
+	font-family: HeadFont;
+}
+.patentat { /* текст в таблице патентов*/
+	color: black;
+	font-size: 24px;
+	font-family:BasicTextFont;
+	width: 960px;
+	margin: auto;
+}
+.h1text3 {  /* Тект заголовока 3*/
+	color: black;
+	font-size: 28px;
+	font-family: HeadFont;
+	margin-left: 20px;
+}
+.h1text4 {  /* Тект заголовока */
+	color: black;
+	font-size: 32px;
+	font-family: HeadFont;
+
+}
+.table1 { /* стиль таблицы с характеристиками */
+border: 1px  solid blacl;
+width: 960px;
+margin: auto;
+background-color: white;
+font-family: BasicTextFont;
+font-size: 18px;
+}
+
+.footertext{ /* футер */
+	margin-top: 10px;
+	background: lightgray;
+	height: 120px;
+	border: 1px solid black;
+	box-shadow: 8px 8px 5px #444;
+/*	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);*/
+}
+.footkeys { /*кнопка в футере*/
+	background-color: #e0e0ff;
+	border: 2px;
+	border-radius: 6px;
+	padding: 10px 10px 10px 10px;
+}
+.footkeys:hover { /*кнопка в футере при выделении*/
+	background-color: #000030;
+	border: 4px;
+	border-radius: 6px;
+	padding: 10px 10px 10px 10px;
+	box-shadow: 8px 8px 5px #444;
+}
+.footkeys2 { /*кнопка в футере*/
+	background-color: #e0e0ff;
+	border: 2px;
+	border-radius: 6px;
+	margin: 10px 10px 10px 10px;
+}
+.footkeys2:hover { /*кнопка в футере при выделении*/
+	background-color: #000030;
+	border: 4px;
+	border-radius: 6px;
+		margin: 10px 10px 10px 10px;
+	box-shadow: 8px 8px 5px #444;
+}
+.picsis { /* внешний вид системы  */
+margin: 60px 10px 10px	10px;
+/*border: 1px solid black*/;
+float: left;
+}
+.basictext { /* основной текст описание системы*/
+	color: black;
+	font-family: BasicTextFont;
+	font-size: 18px;
+	margin-left:30px;
+	margin-right:20px;
+}
+.basictextmain { /* основной текст описание системы*/
+	color: black;
+	font-family: BasicTextFont;
+	font-size: 18px;
+	/*border: 1px solid red;*/
+	margin: 10px;
+
+}
+.list1 { /* список  у картинки*/
+	color: black;
+	font-family: BasicTextFont;
+	font-size: 18px;
+	/*border: 1px solid black;*/
+	margin-left: 270px;
+	margin-right: 20px;
+	margin-top: -10px;
+}
+.list2 { /* список обычный у картинки*/
+	color: black;
+	font-family: BasicTextFont;
+	font-size: 18px;
+}
+.table2 { /* стиль таблицы со ссылками в футере*/
+width: 960px;
+margin: auto;
+margin-top: 10px;
+font-family: BasicTextFont;
+font-size: 18px;
+}
+.table3 { /* стиль таблицы со ссылками на главной форме*/
+width: 920px;
+margin: auto;
+margin-top: 10px;
+font-family: BasicTextFont;
+font-size: 18px;
+border: 1px solid whitd;
+background-color: blue;
+}
+.companyname3{  /* название компании малое   в футере*/
+	color: black;
+	margin-top: 5px;
+	margin-left: 530px;
+	font-family: HeadFont;
+	font-size: 12px;
+}
+.pic1 { /* картинка в подробностях*/
+background-color: lightgray;
+float: left;
+width: 640px;
+border: 1px solid black;
+
+margin-left: 20px;
+margin-top: 0px;
+text-align: center;
+vertical-align: middle;
+
+}
+.text1 { /* надпись в подробностях*/
+background-color: white;
+float: left;
+width: 318px;
+border: 1px solid black;
+margin-left: 1px;
+margin-top: 0px;
+font-family: BasicTextFont;
+font-size: 18px;
+}
+.keyfild { /* кнопки на главной форме*/
+background-color: blue;
+float: left;
+width: 300px;
+height: 700px;
+border: 1px solid black;
+margin-left: 0px;
+margin-top: 0px;
+font-family: HeadFont;
+font-size: 18px;
+}
+.twokeydown {
+	margin: 0px;
+//	background-color: red;
+	height: 100px;
+}

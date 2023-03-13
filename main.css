@@ -1,0 +1,46 @@
+body { /* задний фон */
+	background: skyblue;
+}
+a { /* все! ссылки */
+	color: green;
+	font-size: 32px;
+	text-decoration: none;  /* не подчеркивать ссылки */	
+}
+a:hover { /*  псевдокласс для ссылок, описывает состояние ссылке при наводке курсора*/
+		color: #101010;
+	font-size: 38px;
+	text-decoration: underline;  /*  подчеркивать ссылки */	
+
+}
+.head{ /* стиль заголовка */
+	width: 100%;
+	height: 200px; 
+	vertical-align: top; /* текст ровняем по верху */
+} /* стиль таблицы */
+.table1{
+	width: 100%;	 
+	background: #eeeeee;
+}
+.menu{ /* стиль меню*/
+	width: 20%;	
+	height: 1000px;
+	vertical-align: top;
+}
+.content{ /* стиль контена*/
+	width: 80%;	
+	height: 1000px;
+	vertical-align: top;
+}
+.logopic {
+	width: 200px;
+	width:  250px;
+	border: 1px solid red;
+	margin: 10px 10px 10px 10px;
+}
+.logopic:hover {
+	width: 300px; 
+	width:  350px;
+	border: 2px solid blue;
+	margin: -50px 10px 10px -50px;
+
+}

@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<meta charset="utf-8">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<title></title>
+ </head>
+ <body>
+<p>Before canvas.</p>
+<canvas width="1000" height="800"></canvas>
+<p>After canvas.</p>
+<script>
+  var canvas = document.querySelector("canvas");
+  var context = canvas.getContext("2d");
+  context.fillStyle = "red";
+  context.fillRect(1, 1, 1000-1, 799);
+  context.fillStyle = "white";
+  context.fillRect(2, 2, 1000-3, 797);
+let reader = new FileReader;
+//let file = 'cam1.txt';
+reader.readAsText('cam1.txt');
+reader.onload = function ()
+	{
+	console.log (Reader.result);
+	}
+reader.onerror = function () {
+	console.log (Reader.error);
+}	
+</script>
+ </body>
+ </html>
